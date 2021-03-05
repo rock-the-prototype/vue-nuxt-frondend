@@ -2,9 +2,9 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
+      <h2 class="title">
         Let's rock the prototype!
-      </h1>
+      </h2>
       <div class="links">
         <a
           href="https://nuxtjs.org/"

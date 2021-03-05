@@ -1,7 +1,7 @@
 <template>
   <b-navbar toggleable="md" type="dark" variant="dark" fixed="top">
     <b-navbar-brand to="/" class="d-flex align-items-center">
-      <h1 class="h4">NUXT.JS – Let's rock the prototype!</h1>
+      <h1 class="h2">NUXT.JS – Let's rock the prototype!</h1>
     </b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

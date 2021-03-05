@@ -7,6 +7,9 @@
       <h2 class="subtitle">
         Nur ein Test
       </h2>
+      <div id="components-demo">
+        <button-counter></button-counter>
+      </div>
     </div>
   </section>
 </template>
