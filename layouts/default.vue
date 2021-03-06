@@ -31,6 +31,4 @@ export default {
 .page-leave-to {
   opacity: 0;
 }
-
-
 </style>
