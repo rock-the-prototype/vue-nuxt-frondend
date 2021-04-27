@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        mvp1-2
+        Let's rock the prototype!
       </h1>
       <div class="links">
         <a
