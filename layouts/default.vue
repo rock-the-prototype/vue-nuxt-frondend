@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Nuxt />
     <Navigation />
     <nuxt />
     <Footer />
