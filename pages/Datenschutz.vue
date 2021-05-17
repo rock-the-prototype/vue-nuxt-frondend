@@ -4,7 +4,7 @@
       <h1 class="title">
         Datenschutz-Seite
       </h1>
-      <p>Datenschutz, die Seite die alle bestätigen aber nur die Anwälte lesen.</p>
+      <p>Datenschutz - Die Seite die alle bestätigen, aber meist nur die Anwälte lesen.</p>
     </div>
   </section>
 </template>
