@@ -8,8 +8,7 @@
 </template>
 
 <script>
-import Navigation from '~/components/Navigation'
-import Footer from '~/components/Footer'
+import 'leaflet/dist/leaflet.css';
 
 export default {
   components: {
