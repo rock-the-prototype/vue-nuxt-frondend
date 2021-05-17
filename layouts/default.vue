@@ -3,8 +3,8 @@
     <Nuxt />
     <Navigation />
     <nuxt />
-    <Footer />
     <l-map ref="myMap"> </l-map>
+    <Footer />
   </div>
 </template>
 
