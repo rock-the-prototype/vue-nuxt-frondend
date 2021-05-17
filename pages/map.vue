@@ -27,6 +27,7 @@ export default {
     LMap,
     LTileLayer,
     LMarker,
+    'l-map': window.Vue2Leaflet.LMap,
   },
 };
 
