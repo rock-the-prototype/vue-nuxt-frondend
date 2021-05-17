@@ -3,6 +3,7 @@
     <b-navbar-nav class="ml-auto">
       <b-nav-item to="/datenschutz">
         Datenschutz
+      </b-nav-item>
       <b-nav-item to="/impressum">
         Impressum
       </b-nav-item>
