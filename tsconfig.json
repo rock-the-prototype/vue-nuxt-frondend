@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "types": [
+      "@types/node",
+      "@nuxt/vue-app",
+      "nuxt-leaflet"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
