@@ -29,9 +29,8 @@
           <div @click="innerClick">
             I am a popup
             <p v-show="showParagraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              sed pretium nisl, ut sagittis sapien. Sed vel sollicitudin nisi.
-              Donec finibus semper metus id malesuada.
+              Ahoi! - Rock the Prototype ist Deine Chance neue Technologien im agilen Team in der Praxis zu erproben.
+              Mit uns kannst Du Deine Ideen nach vorne bringen.
             </p>
           </div>
         </l-popup>
@@ -39,11 +38,12 @@
       <l-marker :lat-lng="withTooltip">
         <l-tooltip :options="{ permanent: true, interactive: true }">
           <div @click="innerClick">
-            I am a tooltip
+            Was ist Rock the Prototype?
             <p v-show="showParagraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              sed pretium nisl, ut sagittis sapien. Sed vel sollicitudin nisi.
-              Donec finibus semper metus id malesuada.
+              Ahoi! - Rock the Prototype ist Deine Chance neue Technologien im agilen Team in der Praxis zu erproben.
+              Mit uns kannst Du Deine Ideen nach vorne bringen.
+              Jetzt mitmachen und Neues im Team gemeinsam mit anderen in der Praxis zu erproben.
+              Ahoi - komm an Bord - Du bist herzlich willkommen!
             </p>
           </div>
         </l-tooltip>
