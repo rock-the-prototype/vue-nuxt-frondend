@@ -72,10 +72,10 @@ export default {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution:
         '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-      withPopup: latLng(47.41322, -1.219482),
-      withTooltip: latLng(47.41422, -1.250482),
+      withPopup: latLng(53.56322, 10.0209052),
+      withTooltip: latLng(53.56322, 10.0209052),
       currentZoom: 11.5,
-      currentCenter: latLng(47.41322, -1.219482),
+      currentCenter: latLng(53.56322, 10.0209052),
       showParagraph: false,
       mapOptions: {
         zoomSnap: 0.5
