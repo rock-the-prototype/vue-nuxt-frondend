@@ -1,22 +1,17 @@
 <template>
   <div>
-    <Nuxt />
     <Navigation />
     <nuxt />
-    <l-map ref="myMap"> </l-map>
     <Footer />
   </div>
 </template>
 
 <script>
 import 'leaflet/dist/leaflet.css';
+import Navigation from "~/components/Navigation";
+import Footer from "~/components/Footer";
 
 export default {
-  mounted() {
-    this.$nextTick(() => {
-      this.$refs.myMap.mapObject.ANY_LEAFLET_MAP_METHOD();
-    });
-  },
   components: {
     Navigation,
     Footer
