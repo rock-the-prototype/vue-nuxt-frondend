@@ -9,4 +9,4 @@ jobs:
         with:
             node-version: '14'
       - run: yarn add bats
-      - run: yarn run bats --tap test
+      - run: yarn run bats --tap bats-test
