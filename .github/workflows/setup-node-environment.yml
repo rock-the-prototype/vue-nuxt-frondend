@@ -1,5 +1,12 @@
 name: setup-node-environment
 
+# Only trigger, when the build workflow succeeded
+on:
+  workflow_run:
+    workflows: ["learn-github-actions"]
+    types:
+      - completed
+
 # Matrix Testing
 jobs:
   build:
