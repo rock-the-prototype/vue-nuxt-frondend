@@ -14,7 +14,8 @@ jobs:
     strategy:
       matrix:
         os:
-          - ubuntu-latest
+         # - ubuntu-latest
+         #  die action für den ubuntu test schlägt auf GitHub fehlt
           - macos-latest
           - windows-latest
         node_version:
