@@ -1,4 +1,6 @@
-<!-- Matrix Testing: -->
+name: setup-node-environment
+
+# Matrix Testing
 jobs:
   build:
     runs-on: ${{ matrix.os }}
