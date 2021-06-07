@@ -64,4 +64,4 @@ jobs:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: refresh-docker
         cluster: max-mvp-docker
-        wait-for-service-stability: false
+        wait-for-service-stability: true
