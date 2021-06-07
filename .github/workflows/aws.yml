@@ -54,7 +54,7 @@ jobs:
       id: task-def
       uses: aws-actions/amazon-ecs-render-task-definition@v1
       with:
-        task-definition: task-definition.json
+        task-definition: .github/workflows/task-definition.json
         container-name: max_mvp_docker
         image: ${{ steps.build-image.outputs.image }}
 
