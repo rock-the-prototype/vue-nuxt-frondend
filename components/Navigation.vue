@@ -8,15 +8,10 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item to="/">
-          Home
-        </b-nav-item>
-        <b-nav-item to="/test">
-          Test
-        </b-nav-item>
-        <b-nav-item to="/map">
-          Map
-        </b-nav-item>
+        <b-nav-item to="/"> Home </b-nav-item>
+        <b-nav-item to="/test"> Test </b-nav-item>
+        <b-nav-item to="/map"> Map </b-nav-item>
+        <b-nav-item to="/profile"> Profile </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
@@ -24,10 +19,9 @@
 
 <script>
 export default {
-  name: "Navigation.vue"
-}
+  name: "Navigation.vue",
+};
 </script>
 
 <style scoped>
-
 </style>
