@@ -18,7 +18,7 @@
       "linuxParameters": null,
       "cpu": 1024,
       "environment": [],
-      "resourceRequirements": ["EC2"],
+      "resourceRequirements": null,
       "ulimits": null,
       "dnsServers": null,
       "mountPoints": [],
