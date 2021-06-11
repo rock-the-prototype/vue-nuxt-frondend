@@ -16,7 +16,7 @@
       ],
       "command": null,
       "linuxParameters": null,
-      "cpu": 1024,
+      "cpu": 128,
       "environment": [],
       "resourceRequirements": null,
       "ulimits": null,
