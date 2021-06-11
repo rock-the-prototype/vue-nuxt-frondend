@@ -5,7 +5,7 @@
         Test-Seite
       </h1>
       <h2 class="subtitle">
-        Nur ein Test
+        Nur ein Test<br>
         <strong>Auto Deployment Successful</strong>
       </h2>
       <div id="components-demo">
