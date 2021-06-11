@@ -58,7 +58,7 @@
     "EC2"
   ],
   "networkMode": null,
-  "cpu": "1024",
+  "cpu": "128",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
   "volumes": []

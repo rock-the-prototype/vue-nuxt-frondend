@@ -6,7 +6,7 @@
       </h1>
       <h2 class="subtitle">
         Nur ein Test
-        <strong>Deployment Successful</strong>
+        <strong>Auto Deployment Successful</strong>
       </h2>
       <div id="components-demo">
         <button-counter></button-counter>
