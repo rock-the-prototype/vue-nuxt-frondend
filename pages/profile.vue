@@ -13,7 +13,5 @@
 </template>
 
 <script>
-import "@/assets/scss/profile.scss";
-
 export default {};
 </script>

@@ -1,0 +1,17 @@
+body {
+    padding-top: 50px;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.nuxt-link-exact-active {
+    color: #41bb83 !important;
+  }

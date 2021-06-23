@@ -26,8 +26,6 @@
 </template>
 
 <script>
-import "@/assets/scss/index.scss";
-
 export default {};
 </script>
 
