@@ -3,7 +3,7 @@
     <Navigation />
     <nuxt />
     <Footer />
-  </div>
+  </div>yarn
 </template>
 
 <script>
