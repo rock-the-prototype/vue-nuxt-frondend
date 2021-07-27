@@ -16,3 +16,6 @@ export default {
   name: "login.vue",
 };
 </script>
+
+<style scoped>
+</style>

@@ -40,6 +40,13 @@ export default {
     // Simple usage
     'nuxt-leaflet',
   ],
+  // Strapi
+  strapi: {
+    entities: ['photos', 'categories'],
+    url: 'https://rock-the-prototype.de/:1337'
+
+  },
+
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
