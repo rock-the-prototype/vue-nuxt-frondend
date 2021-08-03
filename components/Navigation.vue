@@ -1,4 +1,19 @@
 <template>
+  <nav>
+    <ul id="menu">
+      <li><NuxtLink to="/">Home</NuxtLink></li>
+      <li><NuxtLink to="/test">Test</NuxtLink></li>
+      <li><NuxtLink to="/map">Map</NuxtLink></li>
+      <li><NuxtLink to="/profile">Profile</NuxtLink></li>
+    </ul>
+    <div class="mobile-bar" @click="toggleMobileMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!--
   <b-navbar toggleable="md" type="dark" variant="dark" fixed="top">
     <b-navbar-brand to="/" class="d-flex align-items-center">
       <h1 class="h2">NUXT.JS – Let's rock the prototype!</h1>
@@ -14,14 +29,19 @@
         <b-nav-item to="/profile"> Profile </b-nav-item>
       </b-navbar-nav>
     </b-collapse>
-  </b-navbar>
+  </b-navbar>-->
 </template>
 
 <script>
 export default {
   name: "Navigation.vue",
+
+  methods: {
+    toggleMobileMenu() {
+      document.querySelector("#menu").classList.toggle("active");
+      document.querySelector(".mobile-bar").classList.toggle("active");
+      $nuxt.$emit("changeClass");
+    },
+  },
 };
 </script>
-
-<style scoped>
-</style>

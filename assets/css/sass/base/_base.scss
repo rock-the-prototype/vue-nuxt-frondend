@@ -7,7 +7,9 @@
  */
  html {
     box-sizing: border-box;
-    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
   }
   
 /**
@@ -16,14 +18,11 @@
 * making all elements inheriting from the root box-sizing value
 * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
 */
+
 *,
 *::before,
 *::after {
     box-sizing: inherit;
-}
-
-body {
-    padding-top: 50px;
 }
 
 

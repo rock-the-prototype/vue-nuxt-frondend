@@ -1,5 +1,8 @@
 <template>
-  <div class="grid-container">
+  <div
+    :class="{ mobile: isMobile, 'text-danger': hasError }"
+    class="library-container"
+  >
     <section class="library-bar">
       <a class="header-1" href="#">Layout</a>
       <a class="header-2" href="#">Colors</a>
@@ -10,3 +13,28 @@
     </section>
   </div>
 </template>
+<script>
+export default {
+  name: "index.vue",
+  data() {
+    return {
+      isMobile: false,
+      hasError: false,
+    };
+  },
+  created() {
+    this.$nuxt.$on("changeClass", () => this.changeClass());
+  },
+  methods: {
+    changeClass() {
+      if (!this.isMobile) {
+        this.isMobile = true;
+      } else {
+        this.isMobile = false;
+      }
+
+      console.log(this.isMobile);
+    },
+  },
+};
+</script>

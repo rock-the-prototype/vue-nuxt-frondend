@@ -4,6 +4,7 @@
 
 // Library header tyling
 .library-bar {
+  margin: 1em;
   display: grid;
   grid-template-areas: 
     'header-1 header-2 header-3 header-4 header-5 header-6' 
@@ -15,9 +16,9 @@
     margin-top: 1rem;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     color: $text-color;
-    padding: 0.5rem 1rem;
-    border: 1px solid $text-color;
-    border-radius: 0.25rem;
+    padding: 0.5em 1em;
+    border: 0.75px solid #e1e1e1;
+    border-radius: 0.25em;
   }
 }
 
@@ -54,4 +55,8 @@
       'right' 
       'footer';
   }
+}
+
+.mobile {
+  padding-top: 200px;
 }
