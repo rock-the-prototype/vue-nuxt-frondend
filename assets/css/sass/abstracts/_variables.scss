@@ -40,12 +40,24 @@ $dark-grey: rgb(68, 68, 68) !default;
 /// @type Length
 $max-width: 1180px !default;
 
+/* --------------------------------------------------
 
-/// Breakpoints map
-/// @prop {String} keys - Keys are identifiers mapped to a given length
-/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+   Breakpoint Settings
+   -------------------------------------------------- */
+
+// min or max
+$media-direction:       min;  // min / max — default is min (mobile first)
+
+
+
+// Breakpoints
+// A Sass Map for all Breakpoints you need. But keep it simple! Just add Sizes that you need several times.
+// Here are my basic set. I change the values a bit from project to project
 $breakpoints: (
-  'small': 320px,
-  'medium': 768px,
-  'large': 1024px,
-) !default;
+  'default':            '',
+  'xs':                 480px,
+  's':                  667px,
+  'm':                  1024px,
+  'l':                  1280px,
+  'xl':                 1680px,
+);

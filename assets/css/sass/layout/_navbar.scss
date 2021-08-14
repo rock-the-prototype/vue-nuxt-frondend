@@ -4,20 +4,20 @@
 
 nav {
     border-bottom: 1px solid #cccc;
-    padding: 1em;
-    background: #f1f1f1;
+    padding: 1rem;
+    // background: #f1f1f1;
     display: flex;
     position: relative;
     .mobile-bar {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 0.5em 1em;
-        display: none;
-        @media(max-width: 768px) {
-            display: flex;
+        padding: 0.5rem 0.5rem;
+        display: flex;
+        @include breakpoint('s') {
+            display: none;
         }
-        span {
+        div {
             display: block;
             height: 2px;
             width: 20px;
@@ -26,18 +26,18 @@ nav {
         }
         &.active {
             background: #333;
-            span {
+            div {
                 background: white;
             }
         }
         &:hover {
             background: #e1e1e1;
-            span {
+            div {
                 background: #444
             }
             &.active {
                 background: #222;
-                span {
+                div {
                     background: white;
                 }
             }
@@ -49,6 +49,7 @@ nav {
         padding: 0;
         transition: ease 1s all;
         @media(max-width: 768px) {
+            z-index: 1;
             opacity: 0;
             max-height: 0px;
             overflow: hidden;
@@ -59,13 +60,13 @@ nav {
             right: 0;
             top: 100%;
             flex-direction: column;
-            background-color: #f1f1f1;
+            //background-color: #f1f1f1;
             margin-left: -100%;
             &.active {
                 margin-left: 0;
                 opacity: 1;
                 max-height: 500px;
-                background-color: #e1e1e1;             
+                background-color: white;             
                 li {
                     display: block;
                     a {
@@ -78,12 +79,13 @@ nav {
             display: inline-block;
             a {
                 display: inline-block;
-                color: black;
+                color: $text-color;
                 text-decoration: none;
                 padding: 0.5em 1em;
+                /**
                 &:hover {
                     background: #e1e1e1;
-                }
+                }**/
             }
         }
     }
