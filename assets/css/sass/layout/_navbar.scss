@@ -35,6 +35,7 @@ nav {
             div {
                 background: #444
             }
+            
             &.active {
                 background: #222;
                 div {
@@ -82,10 +83,7 @@ nav {
                 color: $text-color;
                 text-decoration: none;
                 padding: 0.5em 1em;
-                /**
-                &:hover {
-                    background: #e1e1e1;
-                }**/
+                font-size: .75em;
             }
         }
     }

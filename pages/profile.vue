@@ -1,11 +1,14 @@
 <template>
   <div>
     <div class="profile">
-      <img src="~/assets/images/background_profile_test.jpg" alt="Banner" />
+      <img src="https://picsum.photos/700/375?random=11.webp" />
       <div class="profile-avatar-wrapper">
         <div class="profile-styled-avatar">
           <div class="profile-image">
-            <img src="~/assets/images/img_avatar2.png" alt="Avatar" />
+            <img
+              src="~/assets/images/pexels-alexandr-podvalny-1172207.jpg"
+              alt="Avatar"
+            />
           </div>
         </div>
       </div>
@@ -24,11 +27,11 @@
           />
         </svg>
         <div class="profile-location-name">
-          <a class="" href="#">Stadt</a>
+          <a class="" href="#">City, Location</a>
         </div>
       </div>
       <div class="profile-following-button">
-        <b-button variant="outline-primary">Follow</b-button>
+        <b-button variant="outline-secondary">Follow</b-button>
       </div>
       <div class="profile-social-data">
         <div class="profile-followers">
@@ -56,9 +59,38 @@
         </a>
       </div>
     </div>
-    <div class="profile-photo-container">
-      <div class="profile-photos">
-        <div class="profile-photo"></div>
+    <div class="profile-gallery-container">
+      <div class="profile-gallery-grid">
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=1.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=2.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=3.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=4.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=5.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=6.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=7.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=8.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=9.webp" />
+        </div>
+        <div class="profile-gallery-img">
+          <img src="https://picsum.photos/300/200?random=10.webp" />
+        </div>
       </div>
     </div>
   </div>

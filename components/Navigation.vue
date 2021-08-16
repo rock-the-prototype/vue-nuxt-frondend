@@ -1,12 +1,16 @@
 <template>
   <nav :class="{ mobile: isMobile, 'text-danger': hasError }">
-    <ul id="menu">
+    <ul id="menu" :class="{ active: isMobile, 'text-danger': hasError }">
       <li><NuxtLink to="/">Home</NuxtLink></li>
       <li><NuxtLink to="/test">Test</NuxtLink></li>
       <li><NuxtLink to="/map">Map</NuxtLink></li>
       <li><NuxtLink to="/profile">Profile</NuxtLink></li>
     </ul>
-    <div class="mobile-bar" @click="toggleMobileMenu()">
+    <div
+      class="mobile-bar"
+      @click="toggleMobileMenu()"
+      :class="{ active: isMobile, 'text-danger': hasError }"
+    >
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -46,11 +50,8 @@ export default {
   },
   methods: {
     toggleMobileMenu() {
-      document.querySelector("#menu").classList.toggle("active");
-      document.querySelector(".mobile-bar").classList.toggle("active");
-      this.changeClass();
-    },
-    changeClass() {
+      //document.querySelector("#menu").classList.toggle("active");
+      //document.querySelector(".mobile-bar").classList.toggle("active");
       if (!this.isMobile) {
         this.isMobile = true;
       } else {

@@ -10,3 +10,7 @@
   div[class^='con__col-'] {
     text-align: center;
   }
+
+  a:hover {
+    color: $text-color;
+  }
