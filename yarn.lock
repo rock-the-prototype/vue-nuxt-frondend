@@ -1275,6 +1275,14 @@
     "consola" "^2.15.3"
     "defu" "^5.0.0"
 
+"@nuxtjs/color-mode@^2.1.1":
+  "integrity" "sha512-kGB/FoICF4RwZkfNBhL/yGrHfaUFpviYq6HGvSkZEm2dCpjRXIv9VsWoP0uzwxnoaRAQQOkkWjaGv/nSk0gUSQ=="
+  "resolved" "https://registry.npmjs.org/@nuxtjs/color-mode/-/color-mode-2.1.1.tgz"
+  "version" "2.1.1"
+  dependencies:
+    "defu" "^5.0.0"
+    "lodash.template" "^4.5.0"
+
 "@nuxtjs/proxy@^2.1.0":
   "integrity" "sha512-/qtoeqXgZ4Mg6LRg/gDUZQrFpOlOdHrol/vQYMnKu3aN3bP90UfOUB3QSDghUUK7OISAJ0xp8Ld78aHyCTcKCQ=="
   "resolved" "https://registry.npmjs.org/@nuxtjs/proxy/-/proxy-2.1.0.tgz"

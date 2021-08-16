@@ -2,7 +2,6 @@
 // This file contains all application-wide Sass variables.
 // -----------------------------------------------------------------------------
 
-
 /// Regular font family
 /// @type List
 $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
@@ -11,10 +10,10 @@ $text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvet
 /// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
-
 /// Copy text color
 /// @type Color
 $text-color: rgb(34, 34, 34) !default;
+$text-color-dark: rgb(255,255,255);
 
 /// Main brand color
 /// @type Color
@@ -32,13 +31,18 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
 
-
-
-
-
 /// Container's maximum width
 /// @type Length
 $max-width: 1180px !default;
+
+
+/// Background colgroup
+/// @type Color
+$background-color: rgb(255,255,255) !default;
+$background-color-dark: rgb(0,0,0);
+
+
+
 
 /* --------------------------------------------------
 
