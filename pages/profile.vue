@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="profile-bar">
-      <h4 class="profile-name">Name</h4>
+      <h4 class="profile-name">Photographer Name</h4>
       <div class="profile-location">
         <svg
           xmlns="http://www.w3.org/2000/svg"
