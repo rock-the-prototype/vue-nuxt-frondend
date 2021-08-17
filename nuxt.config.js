@@ -28,6 +28,14 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/color-mode',
+    [
+      '@nuxtjs/router',
+      {
+        path: 'router',
+        fileName: 'index.js',
+        keepDefaultRouter: true,
+      },
+    ],
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
