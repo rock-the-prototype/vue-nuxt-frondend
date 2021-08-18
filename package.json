@@ -16,7 +16,7 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.16.1",
     "leaflet": "^1.7.1",
-    "nuxt": "^2.13.3",
+    "nuxt": "^2.15.8",
     "nuxt-leaflet": "^0.0.25",
     "vue2-leaflet": "^2.7.1"
   },
