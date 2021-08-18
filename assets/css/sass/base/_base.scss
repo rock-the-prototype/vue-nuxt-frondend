@@ -1,0 +1,56 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+:root {
+    color: $text-color;
+    background-color: $background-color;
+}
+
+.dark-mode {
+    $text-color: rgb(255,255,255);
+    $background-color: rgb(0,0,0);
+}
+
+body {
+    color: $text-color;
+    background-color: $background-color;
+}
+
+/**
+ * Set up a decent box model on the root element
+ */
+ html {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+  }
+  
+/**
+* Make all elements from the DOM inherit from the parent box-sizing
+* Since `*` has a specificity of 0, it does not override the `html` value
+* making all elements inheriting from the root box-sizing value
+* See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.5s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.nuxt-link-exact-active {
+    color: #41bb83 !important;
+  }

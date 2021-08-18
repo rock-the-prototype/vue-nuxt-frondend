@@ -14,7 +14,7 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
-    '@/assets/scss/main.scss',
+    '@/assets/css/sass/main.scss',
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -27,6 +27,17 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    '@nuxtjs/color-mode',
+    /* when enabled, type error in browser and click events not available
+    [
+      '@nuxtjs/router',
+      {
+        path: 'router',
+        fileName: 'index.js',
+        keepDefaultRouter: true,
+      },
+    ],
+     */
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)

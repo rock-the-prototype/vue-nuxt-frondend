@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+// 1. Configuration and helpers
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// 2. Vendors
+
+// 3. Base stuff
+@import 'base/base';
+@import 'base/typography';
+
+
+// 4. Layout related sections
+
+@import 'layout/header';
+@import 'layout/navbar';
+@import 'layout/footer';
+
+
+// 5.Components
+
+
+
+// 6. Page-specific rules
+
+@import 'pages/index';
+@import 'pages/profile';
+@import 'pages/design-system/ds-index';
+@import 'pages/design-system/ds-pattern-library';
+@import 'pages/design-system/ds-style-guide';
+
+
+// 7. Themes

@@ -1,0 +1,90 @@
+// -----------------------------------------------------------------------------
+// This file contains the navbar styles.
+// -----------------------------------------------------------------------------
+
+nav {
+    border-bottom: 1px solid #cccc;
+    padding: 1rem;
+    // background: #f1f1f1;
+    display: flex;
+    position: relative;
+    .mobile-bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0.5rem;
+        display: flex;
+        @include breakpoint('s') {
+            display: none;
+        }
+        div {
+            display: block;
+            height: 2px;
+            width: 20px;
+            margin: 2px;
+            background: #888;
+        }
+        &.active {
+            background: #333;
+            div {
+                background: white;
+            }
+        }
+        &:hover {
+            background: #e1e1e1;
+            div {
+                background: #444
+            }
+            
+            &.active {
+                background: #222;
+                div {
+                    background: white;
+                }
+            }
+        }
+    }   
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        transition: ease 1s all;
+        @media(max-width: 768px) {
+            z-index: 1;
+            opacity: 0;
+            max-height: 0px;
+            overflow: hidden;
+            visibility: none;
+            display: flex;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 100%;
+            flex-direction: column;
+            //background-color: #f1f1f1;
+            margin-left: -100%;
+            &.active {
+                margin-left: 0;
+                opacity: 1;
+                max-height: 500px;
+                background-color: white;             
+                li {
+                    display: block;
+                    a {
+                        display: block;
+                    }
+                }
+            }
+        }
+        li {
+            display: inline-block;
+            a {
+                display: inline-block;
+                color: $text-color;
+                text-decoration: none;
+                padding: 0.5em 1em;
+                font-size: .75em;
+            }
+        }
+    }
+}

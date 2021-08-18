@@ -1,0 +1,15 @@
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    
+}
+
+.footer-link {
+    margin-right: 1rem;
+    a {
+        color: $text-color;
+    }
+    font-size: .75em;
+}

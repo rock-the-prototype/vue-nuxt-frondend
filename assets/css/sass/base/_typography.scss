@@ -1,0 +1,15 @@
+
+/**
+ * Basic typography style for copy text
+ */
+ body {
+    font: normal 125% / 1.4 $text-font-stack;
+  }
+
+  div[class^='con__col-'] {
+    text-align: center;
+  }
+
+  a:hover {
+    color: $text-color;
+  }

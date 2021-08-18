@@ -1,0 +1,67 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+$text-color-dark: rgb(255,255,255);
+
+/// Main brand color
+/// @type Color
+$brand-color: rgb(229, 0, 80) !default;
+
+/// Light grey
+/// @type Color
+$light-grey: rgb(237, 237, 237) !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(153, 153, 153) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(68, 68, 68) !default;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+/// Background colgroup
+/// @type Color
+$background-color: rgb(255,255,255) !default;
+$background-color-dark: rgb(0,0,0);
+
+
+
+
+/* --------------------------------------------------
+
+   Breakpoint Settings
+   -------------------------------------------------- */
+
+// min or max
+$media-direction:       min;  // min / max — default is min (mobile first)
+
+
+
+// Breakpoints
+// A Sass Map for all Breakpoints you need. But keep it simple! Just add Sizes that you need several times.
+// Here are my basic set. I change the values a bit from project to project
+$breakpoints: (
+  'default':            '',
+  'xs':                 480px,
+  's':                  667px,
+  'm':                  1024px,
+  'l':                  1280px,
+  'xl':                 1680px,
+);
