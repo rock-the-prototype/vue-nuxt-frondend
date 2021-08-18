@@ -6,8 +6,7 @@ Vue.use(Router);
 export function createRouter(ssrContext, createDefaultRouter, routerOptions) {
     const options = routerOptions || createDefaultRouter(ssrContext).options;
     const hostname = ssrContext ? ssrContext.req.headers.host : location.hosts;
-    const prefix = ssrContext.url;
-    // console.log(prefix);
+    const prefix = ssrContext ? ssrContext.url : location.pathname;
     return new Router({
         ...options,
         routes: fixRoutes(options.routes, hostname, prefix),

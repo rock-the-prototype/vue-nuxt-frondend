@@ -28,6 +28,7 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     '@nuxtjs/color-mode',
+    /* when enabled, type error in browser and click events not available
     [
       '@nuxtjs/router',
       {
@@ -36,6 +37,7 @@ export default {
         keepDefaultRouter: true,
       },
     ],
+     */
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
