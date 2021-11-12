@@ -1,5 +1,5 @@
 # choose node version
-FROM node:15.12.0-alpine
+FROM node:17-alpine
 
 # create working directory
 WORKDIR .
